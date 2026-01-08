@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inter-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.header-nav{
+    background-color: white;
+    padding: 20px;
+}
+nav{
+    width: 93%;
+    max-width: 1600px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /* background-color:rgb(96, 25, 25); */
+    /* padding: 20px 20px; */
+    margin: 0 auto;
+}
+.navT{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.navT li{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+.btn{
+    color: white;
+    border: none;
+    background-color: rgba(24, 141, 65, 0.89);
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
