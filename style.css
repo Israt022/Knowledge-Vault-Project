@@ -22,22 +22,34 @@ nav{
     width: 93%;
     max-width: 1600px;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
-    background-color:rgb(255, 255, 255);
-    padding: 20px 20px;
-    margin: 0;
+    background-color:rgba(231, 231, 231, 0.893);
+    padding: 20px 150px;
+    margin: 0 auto;
     /* padding: 0; */
+}
+.nav-img{
+    cursor: pointer;
+}
+.nav-img:hover{
+    /* cursor:context-menu; */
+    background-color: azure;
 }
 .navT{
     display: flex;
     gap: 20px;
     color: white;
 }
-.navT li{
+
+.navT li a{
+    text-decoration: none;
     color: black;
     font-weight: 600;
     font-size: 16px;
+}
+.navT li a:hover{
+    color :rgba(24, 141, 65, 0.89);
 }
 .btn{
     display: flex;
@@ -61,6 +73,7 @@ nav{
 }
 .btn-arrow{
     text-align: center;
+    margin-top: 0;
 }
 .btn:hover{
     cursor: pointer;
@@ -68,8 +81,8 @@ nav{
 }
 .btn-2:hover{
     cursor: pointer;
-    border: none;
     background-color: rgba(11, 188, 73, 0.89);
+    border: none;
 }
 
 .hero-section{
@@ -129,6 +142,8 @@ nav{
 .sec-part1{
     margin: 10px auto;
     text-align: center;
+    /* width: 93%;
+    height: 40%; */
 }
 .card-des h1{
     margin: 30px auto 0px ;
@@ -136,6 +151,7 @@ nav{
     font-size: 40px;
     font-weight: 600px;
     text-align: center;
+    text-transform: capitalize;
 }
 .card-des p{
     text-align: center;
@@ -173,4 +189,136 @@ nav{
     padding-top: 20px;
     font-weight: 16px;
     text-align: center;
+}
+
+.sec-part2{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    margin: 20px auto;
+    width: 93%;
+    max-width: 93%;
+    height: 40%;
+}
+.sec-img img{
+    margin: 20px 100px;
+    padding: 10px 50px;
+    height: 450px;
+    width: 500px;
+}
+.sec-details{
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 ;
+}
+.p-h{
+    margin-top: 0;
+    /* position: top; */
+    text-transform:uppercase;
+    text-align:start;
+    color: rgba(30, 170, 23, 0.89);
+    font-weight: 700;
+    font-size: 13px;
+    text-align: start;
+}
+.sec-details h1{
+    padding: 15px 0px;
+    font-size: 40px;
+    font-weight: 700;
+    /* line-height: 40px; */
+    text-transform: capitalize;
+}
+.p-det{
+    color: rgba(94, 89, 89, 0.893);
+    padding: 20px 0;
+    font-weight: 16px;
+    line-height: 20px;
+    width: 75%;
+    /* text-align: center; */
+}
+.sec-details ul li{
+    padding: 10px 0px;
+    font-weight: 750;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.sec-part3{
+    text-align: center;
+    margin: 80px auto;
+    /* text-align: center; */
+}
+.ready-sec{
+    margin: 10% 15%;
+    padding: 5% 10%;
+    border-radius: 5px;
+    background-color: rgba(243, 232, 219, 0.417);
+}
+.ready-sec h1{
+    margin: 10px auto;
+    text-transform: capitalize;
+    font-weight: 700px;
+    font-size: 40px;
+}
+.ready-sec .p{
+    text-align: center;
+    font-size: 18px;
+    width: 65%;
+    margin: 0 auto;
+}
+.text-center{
+    /* display: flex;
+    justify-items: center;
+    align-items: center; */
+    text-align: center;
+    margin: 0 0 0 35%;
+}
+footer{
+    margin-top: 130px;
+    background-color: rgba(1, 1, 38, 0.913);
+    padding: 130px 0 20px;
+}
+.footer-container{
+    text-align: center;
+    /* border: 1px solid red; */
+    padding: 0 100px;
+}
+.footer-p-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 90px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.footer-p-1 h4{
+    color: white;
+    font-size: 20px;
+}
+.footer-p-1 ul{
+    display: flex;
+    /* justify-items: left; */
+    justify-content: left;
+    gap: 15px;
+    padding: 20px;
+    text-align: left;
+}
+.footer-p-1 ul li{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px 3px;
+}
+.footer-p-1 ul li a{
+    text-decoration: none;
+    color: black;
+}
+footer hr{
+    color: rgba(2, 12, 70, 0.881);
+    opacity: 10%;
+}
+.footer-container p{
+    padding-top: 20px;
+    color: rgba(208, 216, 253, 0.845);
+    font-size: 16px;
 }
