@@ -116,6 +116,7 @@ nav{
 }
 .sec-detail h1 span{
     color: rgba(35, 173, 83, 0.89);
+    font-size: 70px;
 }
 .btn-container{
     display: flex;
