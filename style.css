@@ -254,6 +254,9 @@ nav{
     width: 65%;
     margin: 0 auto;
 }
+.btn-lst{
+    box-shadow: 0 8px 20px rgba(187, 186, 186, 0.873); 
+}
 .text-center{
     text-align: center;
     margin: 0 0 0 35%;
